@@ -46,7 +46,7 @@
     progressStyle.strokeColor = [UIColor redColor];
     LWBCircularLoadingView *progressView = [[LWBCircularLoadingView alloc] initWithFrame:CGRectMake(0, 0, 36, 36) style:progressStyle];
     progressView.frame = CGRectMake(100, 200, 36, 36);
-    [progressView start];
+//    [progressView start];
     [self.view addSubview:progressView];
     
     __block CGFloat progress = 0;
@@ -55,6 +55,7 @@
         if (progress == 1) {
             progress = 0;
         }
+        progressView.progress = progress;
     }];
 }
 
