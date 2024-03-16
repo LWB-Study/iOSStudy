@@ -17,6 +17,7 @@
 		3BA02D812BA1E54D00EDF7AF /* LWBAnnularLoadingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BA02D802BA1E54D00EDF7AF /* LWBAnnularLoadingTests.m */; };
 		3BA02D8B2BA1E54D00EDF7AF /* LWBAnnularLoadingUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BA02D8A2BA1E54D00EDF7AF /* LWBAnnularLoadingUITests.m */; };
 		3BA02D8D2BA1E54D00EDF7AF /* LWBAnnularLoadingUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BA02D8C2BA1E54D00EDF7AF /* LWBAnnularLoadingUITestsLaunchTests.m */; };
+		3BA02D9B2BA59F6900EDF7AF /* LWBCircularLoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BA02D9A2BA59F6900EDF7AF /* LWBCircularLoadingView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,8 @@
 		3BA02D862BA1E54D00EDF7AF /* LWBAnnularLoadingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LWBAnnularLoadingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BA02D8A2BA1E54D00EDF7AF /* LWBAnnularLoadingUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LWBAnnularLoadingUITests.m; sourceTree = "<group>"; };
 		3BA02D8C2BA1E54D00EDF7AF /* LWBAnnularLoadingUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LWBAnnularLoadingUITestsLaunchTests.m; sourceTree = "<group>"; };
+		3BA02D992BA59F6900EDF7AF /* LWBCircularLoadingView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LWBCircularLoadingView.h; sourceTree = "<group>"; };
+		3BA02D9A2BA59F6900EDF7AF /* LWBCircularLoadingView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LWBCircularLoadingView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +118,8 @@
 				3BA02D722BA1E54C00EDF7AF /* LaunchScreen.storyboard */,
 				3BA02D752BA1E54C00EDF7AF /* Info.plist */,
 				3BA02D762BA1E54C00EDF7AF /* main.m */,
+				3BA02D992BA59F6900EDF7AF /* LWBCircularLoadingView.h */,
+				3BA02D9A2BA59F6900EDF7AF /* LWBCircularLoadingView.m */,
 			);
 			path = LWBAnnularLoading;
 			sourceTree = "<group>";
@@ -268,6 +273,7 @@
 			files = (
 				3BA02D6C2BA1E54B00EDF7AF /* ViewController.m in Sources */,
 				3BA02D662BA1E54B00EDF7AF /* AppDelegate.m in Sources */,
+				3BA02D9B2BA59F6900EDF7AF /* LWBCircularLoadingView.m in Sources */,
 				3BA02D772BA1E54C00EDF7AF /* main.m in Sources */,
 				3BA02D692BA1E54B00EDF7AF /* SceneDelegate.m in Sources */,
 			);
