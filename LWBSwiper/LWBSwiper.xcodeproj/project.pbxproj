@@ -1,0 +1,613 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3BA02DAA2BA5C2F200EDF7AF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BA02DA92BA5C2F200EDF7AF /* AppDelegate.m */; };
+		3BA02DAD2BA5C2F200EDF7AF /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BA02DAC2BA5C2F200EDF7AF /* SceneDelegate.m */; };
+		3BA02DB02BA5C2F200EDF7AF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BA02DAF2BA5C2F200EDF7AF /* ViewController.m */; };
+		3BA02DB32BA5C2F200EDF7AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BA02DB12BA5C2F200EDF7AF /* Main.storyboard */; };
+		3BA02DB52BA5C2F300EDF7AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BA02DB42BA5C2F300EDF7AF /* Assets.xcassets */; };
+		3BA02DB82BA5C2F300EDF7AF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BA02DB62BA5C2F300EDF7AF /* LaunchScreen.storyboard */; };
+		3BA02DBB2BA5C2F300EDF7AF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BA02DBA2BA5C2F300EDF7AF /* main.m */; };
+		3BA02DC52BA5C2F400EDF7AF /* LWBSwiperTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BA02DC42BA5C2F400EDF7AF /* LWBSwiperTests.m */; };
+		3BA02DCF2BA5C2F400EDF7AF /* LWBSwiperUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BA02DCE2BA5C2F400EDF7AF /* LWBSwiperUITests.m */; };
+		3BA02DD12BA5C2F400EDF7AF /* LWBSwiperUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BA02DD02BA5C2F400EDF7AF /* LWBSwiperUITestsLaunchTests.m */; };
+		3BA02DE32BA5C35300EDF7AF /* BLKSwiperView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BA02DE02BA5C35300EDF7AF /* BLKSwiperView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3BA02DC12BA5C2F400EDF7AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3BA02D9D2BA5C2F200EDF7AF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3BA02DA42BA5C2F200EDF7AF;
+			remoteInfo = LWBSwiper;
+		};
+		3BA02DCB2BA5C2F400EDF7AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3BA02D9D2BA5C2F200EDF7AF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3BA02DA42BA5C2F200EDF7AF;
+			remoteInfo = LWBSwiper;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3BA02DA52BA5C2F200EDF7AF /* LWBSwiper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LWBSwiper.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BA02DA82BA5C2F200EDF7AF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3BA02DA92BA5C2F200EDF7AF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3BA02DAB2BA5C2F200EDF7AF /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		3BA02DAC2BA5C2F200EDF7AF /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		3BA02DAE2BA5C2F200EDF7AF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3BA02DAF2BA5C2F200EDF7AF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3BA02DB22BA5C2F200EDF7AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3BA02DB42BA5C2F300EDF7AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3BA02DB72BA5C2F300EDF7AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3BA02DB92BA5C2F300EDF7AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3BA02DBA2BA5C2F300EDF7AF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3BA02DC02BA5C2F400EDF7AF /* LWBSwiperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LWBSwiperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BA02DC42BA5C2F400EDF7AF /* LWBSwiperTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LWBSwiperTests.m; sourceTree = "<group>"; };
+		3BA02DCA2BA5C2F400EDF7AF /* LWBSwiperUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LWBSwiperUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BA02DCE2BA5C2F400EDF7AF /* LWBSwiperUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LWBSwiperUITests.m; sourceTree = "<group>"; };
+		3BA02DD02BA5C2F400EDF7AF /* LWBSwiperUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LWBSwiperUITestsLaunchTests.m; sourceTree = "<group>"; };
+		3BA02DE02BA5C35300EDF7AF /* BLKSwiperView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLKSwiperView.m; sourceTree = "<group>"; };
+		3BA02DE12BA5C35300EDF7AF /* BLKSwiperViewProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLKSwiperViewProtocol.h; sourceTree = "<group>"; };
+		3BA02DE22BA5C35300EDF7AF /* BLKSwiperView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLKSwiperView.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3BA02DA22BA5C2F200EDF7AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BA02DBD2BA5C2F400EDF7AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BA02DC72BA5C2F400EDF7AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3BA02D9C2BA5C2F200EDF7AF = {
+			isa = PBXGroup;
+			children = (
+				3BA02DA72BA5C2F200EDF7AF /* LWBSwiper */,
+				3BA02DC32BA5C2F400EDF7AF /* LWBSwiperTests */,
+				3BA02DCD2BA5C2F400EDF7AF /* LWBSwiperUITests */,
+				3BA02DA62BA5C2F200EDF7AF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3BA02DA62BA5C2F200EDF7AF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3BA02DA52BA5C2F200EDF7AF /* LWBSwiper.app */,
+				3BA02DC02BA5C2F400EDF7AF /* LWBSwiperTests.xctest */,
+				3BA02DCA2BA5C2F400EDF7AF /* LWBSwiperUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3BA02DA72BA5C2F200EDF7AF /* LWBSwiper */ = {
+			isa = PBXGroup;
+			children = (
+				3BA02DDF2BA5C35300EDF7AF /* Swiper */,
+				3BA02DA82BA5C2F200EDF7AF /* AppDelegate.h */,
+				3BA02DA92BA5C2F200EDF7AF /* AppDelegate.m */,
+				3BA02DAB2BA5C2F200EDF7AF /* SceneDelegate.h */,
+				3BA02DAC2BA5C2F200EDF7AF /* SceneDelegate.m */,
+				3BA02DAE2BA5C2F200EDF7AF /* ViewController.h */,
+				3BA02DAF2BA5C2F200EDF7AF /* ViewController.m */,
+				3BA02DB12BA5C2F200EDF7AF /* Main.storyboard */,
+				3BA02DB42BA5C2F300EDF7AF /* Assets.xcassets */,
+				3BA02DB62BA5C2F300EDF7AF /* LaunchScreen.storyboard */,
+				3BA02DB92BA5C2F300EDF7AF /* Info.plist */,
+				3BA02DBA2BA5C2F300EDF7AF /* main.m */,
+			);
+			path = LWBSwiper;
+			sourceTree = "<group>";
+		};
+		3BA02DC32BA5C2F400EDF7AF /* LWBSwiperTests */ = {
+			isa = PBXGroup;
+			children = (
+				3BA02DC42BA5C2F400EDF7AF /* LWBSwiperTests.m */,
+			);
+			path = LWBSwiperTests;
+			sourceTree = "<group>";
+		};
+		3BA02DCD2BA5C2F400EDF7AF /* LWBSwiperUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3BA02DCE2BA5C2F400EDF7AF /* LWBSwiperUITests.m */,
+				3BA02DD02BA5C2F400EDF7AF /* LWBSwiperUITestsLaunchTests.m */,
+			);
+			path = LWBSwiperUITests;
+			sourceTree = "<group>";
+		};
+		3BA02DDF2BA5C35300EDF7AF /* Swiper */ = {
+			isa = PBXGroup;
+			children = (
+				3BA02DE02BA5C35300EDF7AF /* BLKSwiperView.m */,
+				3BA02DE12BA5C35300EDF7AF /* BLKSwiperViewProtocol.h */,
+				3BA02DE22BA5C35300EDF7AF /* BLKSwiperView.h */,
+			);
+			name = Swiper;
+			path = ../../../../../Downloads/Swiper;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3BA02DA42BA5C2F200EDF7AF /* LWBSwiper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3BA02DD42BA5C2F400EDF7AF /* Build configuration list for PBXNativeTarget "LWBSwiper" */;
+			buildPhases = (
+				3BA02DA12BA5C2F200EDF7AF /* Sources */,
+				3BA02DA22BA5C2F200EDF7AF /* Frameworks */,
+				3BA02DA32BA5C2F200EDF7AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LWBSwiper;
+			productName = LWBSwiper;
+			productReference = 3BA02DA52BA5C2F200EDF7AF /* LWBSwiper.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3BA02DBF2BA5C2F400EDF7AF /* LWBSwiperTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3BA02DD72BA5C2F400EDF7AF /* Build configuration list for PBXNativeTarget "LWBSwiperTests" */;
+			buildPhases = (
+				3BA02DBC2BA5C2F400EDF7AF /* Sources */,
+				3BA02DBD2BA5C2F400EDF7AF /* Frameworks */,
+				3BA02DBE2BA5C2F400EDF7AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3BA02DC22BA5C2F400EDF7AF /* PBXTargetDependency */,
+			);
+			name = LWBSwiperTests;
+			productName = LWBSwiperTests;
+			productReference = 3BA02DC02BA5C2F400EDF7AF /* LWBSwiperTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3BA02DC92BA5C2F400EDF7AF /* LWBSwiperUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3BA02DDA2BA5C2F400EDF7AF /* Build configuration list for PBXNativeTarget "LWBSwiperUITests" */;
+			buildPhases = (
+				3BA02DC62BA5C2F400EDF7AF /* Sources */,
+				3BA02DC72BA5C2F400EDF7AF /* Frameworks */,
+				3BA02DC82BA5C2F400EDF7AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3BA02DCC2BA5C2F400EDF7AF /* PBXTargetDependency */,
+			);
+			name = LWBSwiperUITests;
+			productName = LWBSwiperUITests;
+			productReference = 3BA02DCA2BA5C2F400EDF7AF /* LWBSwiperUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3BA02D9D2BA5C2F200EDF7AF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					3BA02DA42BA5C2F200EDF7AF = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					3BA02DBF2BA5C2F400EDF7AF = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 3BA02DA42BA5C2F200EDF7AF;
+					};
+					3BA02DC92BA5C2F400EDF7AF = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 3BA02DA42BA5C2F200EDF7AF;
+					};
+				};
+			};
+			buildConfigurationList = 3BA02DA02BA5C2F200EDF7AF /* Build configuration list for PBXProject "LWBSwiper" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3BA02D9C2BA5C2F200EDF7AF;
+			productRefGroup = 3BA02DA62BA5C2F200EDF7AF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3BA02DA42BA5C2F200EDF7AF /* LWBSwiper */,
+				3BA02DBF2BA5C2F400EDF7AF /* LWBSwiperTests */,
+				3BA02DC92BA5C2F400EDF7AF /* LWBSwiperUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3BA02DA32BA5C2F200EDF7AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BA02DB82BA5C2F300EDF7AF /* LaunchScreen.storyboard in Resources */,
+				3BA02DB52BA5C2F300EDF7AF /* Assets.xcassets in Resources */,
+				3BA02DB32BA5C2F200EDF7AF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BA02DBE2BA5C2F400EDF7AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BA02DC82BA5C2F400EDF7AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3BA02DA12BA5C2F200EDF7AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BA02DB02BA5C2F200EDF7AF /* ViewController.m in Sources */,
+				3BA02DAA2BA5C2F200EDF7AF /* AppDelegate.m in Sources */,
+				3BA02DBB2BA5C2F300EDF7AF /* main.m in Sources */,
+				3BA02DAD2BA5C2F200EDF7AF /* SceneDelegate.m in Sources */,
+				3BA02DE32BA5C35300EDF7AF /* BLKSwiperView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BA02DBC2BA5C2F400EDF7AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BA02DC52BA5C2F400EDF7AF /* LWBSwiperTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BA02DC62BA5C2F400EDF7AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BA02DD12BA5C2F400EDF7AF /* LWBSwiperUITestsLaunchTests.m in Sources */,
+				3BA02DCF2BA5C2F400EDF7AF /* LWBSwiperUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3BA02DC22BA5C2F400EDF7AF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3BA02DA42BA5C2F200EDF7AF /* LWBSwiper */;
+			targetProxy = 3BA02DC12BA5C2F400EDF7AF /* PBXContainerItemProxy */;
+		};
+		3BA02DCC2BA5C2F400EDF7AF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3BA02DA42BA5C2F200EDF7AF /* LWBSwiper */;
+			targetProxy = 3BA02DCB2BA5C2F400EDF7AF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3BA02DB12BA5C2F200EDF7AF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3BA02DB22BA5C2F200EDF7AF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3BA02DB62BA5C2F300EDF7AF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3BA02DB72BA5C2F300EDF7AF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3BA02DD22BA5C2F400EDF7AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3BA02DD32BA5C2F400EDF7AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3BA02DD52BA5C2F400EDF7AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LWBSwiper/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = lwb.LWBSwiper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3BA02DD62BA5C2F400EDF7AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LWBSwiper/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = lwb.LWBSwiper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3BA02DD82BA5C2F400EDF7AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = lwb.LWBSwiperTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LWBSwiper.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LWBSwiper";
+			};
+			name = Debug;
+		};
+		3BA02DD92BA5C2F400EDF7AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = lwb.LWBSwiperTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LWBSwiper.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LWBSwiper";
+			};
+			name = Release;
+		};
+		3BA02DDB2BA5C2F400EDF7AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = lwb.LWBSwiperUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LWBSwiper;
+			};
+			name = Debug;
+		};
+		3BA02DDC2BA5C2F400EDF7AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = lwb.LWBSwiperUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LWBSwiper;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3BA02DA02BA5C2F200EDF7AF /* Build configuration list for PBXProject "LWBSwiper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BA02DD22BA5C2F400EDF7AF /* Debug */,
+				3BA02DD32BA5C2F400EDF7AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3BA02DD42BA5C2F400EDF7AF /* Build configuration list for PBXNativeTarget "LWBSwiper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BA02DD52BA5C2F400EDF7AF /* Debug */,
+				3BA02DD62BA5C2F400EDF7AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3BA02DD72BA5C2F400EDF7AF /* Build configuration list for PBXNativeTarget "LWBSwiperTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BA02DD82BA5C2F400EDF7AF /* Debug */,
+				3BA02DD92BA5C2F400EDF7AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3BA02DDA2BA5C2F400EDF7AF /* Build configuration list for PBXNativeTarget "LWBSwiperUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BA02DDB2BA5C2F400EDF7AF /* Debug */,
+				3BA02DDC2BA5C2F400EDF7AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3BA02D9D2BA5C2F200EDF7AF /* Project object */;
+}
