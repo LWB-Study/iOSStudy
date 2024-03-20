@@ -6,6 +6,7 @@
 //
 
 #import "ViewController.h"
+#import "LWBSwiperView.h"
 
 @interface ViewController ()
 
